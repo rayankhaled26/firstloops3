@@ -4,7 +4,7 @@
 num = '76542'
 
 reverse = ''
-for gabi in range(len(num), 0, -1):
-   reverse = reverse + num[gabi-1]
+for value in range(len(num), 0, -1):
+   reverse = reverse + num[value-1]
 reverse = int(reverse)
 print(reverse)
